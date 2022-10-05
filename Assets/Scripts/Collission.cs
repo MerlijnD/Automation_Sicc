@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wall : MonoBehaviour
+public class Collission : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other) {
         GameObject agent = GameObject.Find("Script");
