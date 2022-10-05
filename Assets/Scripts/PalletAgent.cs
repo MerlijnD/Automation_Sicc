@@ -50,7 +50,7 @@ public class PalletAgent : Agent
     public void CollisionDetection()
     {
         // collision detection on packages, and not on pallet
-        AddReward(-10.0f);
+        SetReward(-10.0f);
         EndEpisode();
     }
 
